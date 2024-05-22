@@ -1,0 +1,271 @@
+body {
+    background-image: url(ashgreninja.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    }
+
+.card {
+    display: inline-block;
+    width: 20%;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 1rem 1rem;
+    vertical-align: top;
+    border-width: 5px;
+    height: auto;
+    box-shadow: 10px 10px 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.bottom-card {
+    align-self: flex-end; 
+}
+
+.container {
+    background-color: gray;
+    padding: 2px 16px;
+    color: white;
+    height: 300px; 
+}
+
+.container2 {
+    background-color: skyblue;
+    padding: 2px 16px;
+    color: white;
+    height: 300px; 
+}
+
+.container3 {
+    background-color: rgb(33, 100, 224);
+    padding: 2px 16px;
+    color: white;
+    height: 300px; 
+}
+
+.container4 {
+    background-color: gray;
+    padding: 2px 16px;
+    color: white;
+    height: 300px; 
+}
+
+.container5 {
+    background-color: rgb(237, 240, 66);
+    padding: 2px 16px;
+    color: white;
+    height: 300px; 
+}
+
+.container6 {
+    background-color: rgb(231, 229, 231);
+    padding: 2px 16px;
+    color: white;
+    height: 300px; 
+}
+
+.container h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container2 h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container3 h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container4 h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container5 h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container6 h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container p, {
+    white-space: normal;
+}
+.container2 p {
+    white-space: normal; 
+}
+.container3 p {
+    white-space: normal; 
+}
+.container4 p {
+    white-space: normal; 
+}
+.container5 p {
+    white-space: normal; 
+}
+.container6 p {
+    white-space: normal; 
+}
+
+.parent {
+    position:relative;
+    top: 0;
+    left: 0;
+    background-color: gray;
+}
+
+.parent2 {
+    position:relative;
+    top: 0;
+    left: 0;
+    background-color: skyblue;
+}
+
+.parent3 {
+    position:relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(33, 100, 224);
+}
+
+.parent4 {
+    position:relative;
+    top: 0;
+    left: 0;
+    background-color: gray;
+}
+
+.parent5 {
+    position:relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(237, 240, 66);
+}
+
+.parent6 {
+    position:relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(231, 229, 231);
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.image2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; 
+}
+
+.image3 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; 
+}
+
+.type-dark {
+    background-color: #705746;
+    color: white;
+    padding: 6px 100px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.type-dark2 {
+    background-color: #705746;
+    padding: 6px 35px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.type-water {
+    background-color: #6390F0;
+    color: white;
+    padding: 6px 35px;
+    border-radius: 5px;
+    margin: 0 2px;
+    }
+
+.type-dragon {
+    background-color: #6F35FC;
+    color: white;
+    padding: 6px 35px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.type-flying {
+    background-color: #A98FF3;
+    color: white;
+    padding: 6px 35px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.type-normal {
+    background-color: #A8A77A;
+    color: white;
+    padding: 6px 100px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.type-electric {
+    background-color: #F7D02C;
+    color: white;
+    padding: 6px 100px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 45%;
+    font-size: medium;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+
+.add {
+    background-color: #007BFF;
+    color: white;
+}
+
+.release {
+    background-color: #ec102d;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05); 
+}
+
+.add:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+.release:hover {
+    background-color: #e32b15; 
+    transform: scale(1.05); 
+}
